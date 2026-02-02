@@ -21,7 +21,7 @@ function App() {
         <Route path='/Contacts' name='Contacts' element = {<Contacts />}/>
           <Route path='/Portfolio' name='Portfolio' element = {<Portfolio />}/>
           <Route path='/AboutMy' name='AboutMy' element = {<AboutMy />}/>
-          <Route path="/React" name='Home' element = {<Home />} />
+          <Route path="/portfolioReact" name='Home' element = {<Home />} />
           <Route exact path="/" name='Home' element = {<Home />} />
     </Routes>
         
