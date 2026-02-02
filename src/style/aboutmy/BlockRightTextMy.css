@@ -1,0 +1,50 @@
+.BlokRightTextMy {
+  font-family: "Benzin-Bold";
+  font-size: 138px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  margin-top: 54px;
+
+}
+
+@media screen and (max-width: 1600px) {
+  .BlokRightTextMy {
+    font-size: 130px;
+    margin-top: 70px;
+    margin-left: -23px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .BlokRightTextMy {
+    font-size: 123px;
+    margin-top: 79px;
+    margin-left: -35px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .BlokRightTextMy {
+    font-size: 133px;
+    margin-top: 42px;
+    margin-left: -8px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .BlokRightTextMy {
+    font-size: 122px;
+    margin-top: 49px;
+  }
+}
+
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 800px) {
+   .BlokRightTextMy {
+   display: none;
+  }
+}

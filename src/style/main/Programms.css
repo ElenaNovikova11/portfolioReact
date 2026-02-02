@@ -1,0 +1,129 @@
+.program {
+  display: grid;
+  grid-template-columns: repeat(3, 325px);
+  gap: 19px;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 70px;
+}
+
+.program-img {
+  width: 40px;
+  margin: 11px 10px 11px 41px;
+}
+
+.program-block {
+  display: flex;
+  align-items: center;
+  background-color: rgb(88, 231, 0);
+  border-radius: 25px;
+  text-transform: uppercase;
+  color: #0c354b;
+}
+
+.program-btn {
+  position: absolute;
+  background-color: rgb(127, 42, 255);
+  border-radius: 25px;
+  padding: 18px 58px;
+  color: #0C354B;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #ffffff;
+  transform: skew(0deg, 7deg);
+  margin-top: 200px;
+  margin-left: 70px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.program-btn:hover {
+  background-color: rgb(88, 231, 0);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(130, 130, 130, 0.349);
+  box-shadow: unset;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.nobold {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.nobold20 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1600px) {
+  .program-btn {
+    margin-top: 212px;
+    margin-left: 16px;
+  }
+
+  .program {
+    margin-bottom: 105px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .program {
+    grid-template-columns: repeat(3, 285px);
+  }
+
+  .program-btn {
+    margin-top: 220px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .program-btn {
+    padding: 15px 35px;
+    font-size: 15px;
+  }
+
+  .program {
+    grid-template-columns: repeat(3, 265px);
+    margin-bottom: 84px;
+  }
+}
+
+@media screen and (max-width: 840px){
+  .program-btn{
+    margin-left: -19px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .program {
+    grid-template-columns: repeat(2, 145px);
+    gap: 9px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .program-img {
+    width: 29px;
+    margin: 11px 10px 11px 17px;
+  }
+
+  .nobold20 {
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .nobold {
+    font-size: 11px;
+  }
+
+  .program-btn {
+    padding: 15px 22px;
+    font-size: 13px;
+    margin-top: 230px;
+    margin-left: 167px;
+    transform: skew(0deg, -7deg);
+  }
+}

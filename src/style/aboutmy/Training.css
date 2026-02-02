@@ -1,0 +1,82 @@
+.user__fron__skill1 {
+    grid-column: span 3;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 145%;
+    background-color: rgb(12, 53, 75);
+    border-radius: 25px;
+    padding: 15px;
+    border: 2px solid rgb(88, 231, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    width: 1000px;
+    place-self: center;
+    padding-left: 30px;
+}
+
+.certificate {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.certificate__img {
+    width: 100%;
+}
+
+.certificate__img:hover {
+    transform: scale(1.5);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px #ffffff;
+}
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1400px) {
+    .certificate {
+        grid-template-columns: repeat(3, 290px);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .user__fron__skill1 {
+        font-size: 20px;
+        grid-column: span 2;
+        width: 900px;
+    }
+
+    .certificate {
+        grid-template-columns: repeat(3, 270px);
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .user__fron__skill1 {
+        font-size: 15px;
+        width: 850px;
+    }
+
+    .certificate {
+        grid-template-columns: repeat(3, 249px);
+    }
+}
+
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 800px) {
+    .user__fron__skill1 {
+        width: 320px;
+        padding-left: 15px;
+        font-size: 11px;
+    }
+
+    .certificate {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 284px;
+    }
+}

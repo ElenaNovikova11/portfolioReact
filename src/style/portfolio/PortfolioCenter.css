@@ -1,0 +1,273 @@
+.portfolio {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 40px;
+    padding: 100px 70px 0px 70px;
+}
+
+.work {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.portfolioAll {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 20px;
+
+
+}
+
+
+
+.portfolioAll-img:hover {
+    transform: scale(1.5);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px #ffffff;
+}
+
+.work-btn {
+    background-color: var(--color-site);
+    padding: 20px;
+    border-radius: 27px;
+    border: none;
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.work-btn:hover {
+    background-color: var(--color-violet);
+}
+
+.work-btn:active {
+    background-color: var(--color-green);
+    color: aqua;
+}
+
+.portfolio-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.skill2 {
+    display: grid;
+    grid-template-columns: repeat(1, 500px);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(127, 42, 255);
+    border-radius: 25px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: "Benzin-Bold";
+
+}
+
+.portfolio-img {
+    display: grid;
+    grid-template-columns: repeat(1, 480px);
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.carousel-indicators {
+    bottom: -35px;
+}
+
+.portfolio-figma {
+    border-radius: 27px;
+    padding: 7px 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px var(--color-white);
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: var(--color-green);
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.portfolio-figma-text {
+    color: var(--color-site);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1600px) {
+    .portfolio {
+        grid-template-columns: 245px 1fr;
+        gap: 25px;
+    }
+
+    .work-btn {
+        font-size: 14px;
+    }
+
+    .portfolioAll {
+        display: grid;
+        grid-template-columns: 380px 380px 380px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .portfolio-img {
+        display: grid;
+        grid-template-columns: repeat(1, 420px);
+    }
+
+    .skill2 {
+        display: grid;
+        grid-template-columns: repeat(1, 440px);
+        font-size: 16px;
+    }
+
+    .work-btn {
+        padding: 6px;
+    }
+
+    .portfolio-figma {
+        font-size: 16px;
+        margin-left: 15px;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+
+    .portfolioAll {
+        display: grid;
+        grid-template-columns: 320px 320px 320px;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .portfolio-figma {
+        font-size: 15px;
+    }
+
+    .portfolio-img {
+        display: grid;
+        grid-template-columns: repeat(1, 350px);
+    }
+
+    .skill2 {
+        display: grid;
+        grid-template-columns: repeat(1, 370px);
+        font-size: 14px;
+        padding: 13px;
+    }
+
+    .portfolioAll {
+
+        grid-template-columns: 260px 260px 260px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .work {
+        gap: 11px;
+
+    }
+
+    .portfolio {
+        grid-template-columns: 200px 1fr;
+        gap: 14px;
+    }
+
+    .work-btn {
+        font-size: 11px;
+        padding: 12px 16px;
+    }
+
+    .portfolio-img {
+        grid-template-columns: repeat(1, 265px);
+    }
+
+    .skill2 {
+        grid-template-columns: repeat(1, 285px);
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    .portfolioAll {
+
+        grid-template-columns: 205px 205px 205px;
+    }
+
+    .portfolio-figma {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+    .work-btn {
+        font-size: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .work {
+        gap: 10px;
+    }
+
+    .portfolio-figma {
+        font-size: 10px;
+    }
+
+    .portfolio {
+        grid-template-columns: 125px 1fr;
+    }
+
+    .portfolioAll {
+        grid-template-columns: 175px 175px 175px;
+    }
+
+    .portfolio-img {
+        grid-template-columns: repeat(1, 225px);
+    }
+
+    .skill2 {
+        grid-template-columns: repeat(1, 240px);
+        font-size: 10px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .portfolio {
+        display: flex;
+        padding: 70px 30px 0px 30px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .portfolioAll {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .portfolio800 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-img {
+        display: flex;
+        width: calc(100% - 40px);
+        align-items: center;
+        justify-content: center;
+    }
+}

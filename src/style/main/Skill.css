@@ -1,0 +1,27 @@
+.skill {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(127, 42, 255);
+    border-radius: 25px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: "Benzin-Bold";
+    width: 100%;
+
+}
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (max-width: 840px) {}
+
+@media screen and (max-width: 800px) {
+    .skill {
+        font-size: 13px;
+        padding: 13px;
+    }
+}

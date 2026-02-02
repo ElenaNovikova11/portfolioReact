@@ -1,0 +1,102 @@
+.motivation {
+
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 35px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.motivation-btn {
+    background-color: var(--color-green);
+    padding: 18px 25px;
+    color: #0C354B;
+    transition: all 0.3s ease;
+    border-radius: 27px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.motivation-btn:active {
+    background-color: rgb(12, 53, 75);
+    color: var(--color-green);
+}
+
+.motivation-btn:focus {
+    background-color: rgb(12, 53, 75);
+    color: var(--color-green);
+}
+
+.motivation-text {
+    color: rgb(127, 42, 255);
+    width: 380px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.modalRandom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(12, 53, 75);
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    font-size: 20px;
+    border: 2px solid rgb(127, 42, 255);
+    height: 100%;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1250px) {
+    .motivation {
+        display: grid;
+        grid-template-columns: repeat(2, 428px);
+        gap: 20px
+    }
+
+    .motivation-btn {
+        font-size: 13px;
+    }
+
+    .modalRandom {
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .motivation {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 300px;
+    }
+
+    .motivation-block {
+        width: 300px;
+    }
+
+    .motivation-text {
+        width: 300px;
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .motivation-btn {
+        margin-bottom: 0px;
+    }
+
+    .modalRandom {
+        font-size: 13px;
+    }
+}

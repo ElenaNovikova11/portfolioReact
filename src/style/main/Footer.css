@@ -1,0 +1,29 @@
+.footer-hr {
+  margin-top: 15px;
+  background: linear-gradient(90deg, rgb(127, 42, 255), rgb(88, 231, 0));
+  border: none !important;
+  border-radius: 5px;
+  height: 5px;
+}
+
+.footer-text {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: rgb(127, 42, 255);
+  font-size: 16px;
+  margin-left: 17px;
+}
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1250px) {}
+
+@media screen and (max-width: 840px) {}
+
+@media screen and (max-width: 800px) {
+  .footer-text {
+    font-size: 12px;
+  }
+}

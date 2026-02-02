@@ -1,0 +1,118 @@
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  flex-wrap: nowrap;
+  position: relative;
+  margin-left: 70px;
+
+}
+
+.aboutMe-text {
+  width: 506px;
+  margin-left: 143px;
+  margin-top: 160px;
+  margin-bottom: 100px;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  padding-top: 65px;
+  padding-left: 54px;
+  background-color: var(--color-site);
+  border: 2px solid var(--color-green);
+  border-radius: 25px;
+
+}
+
+.aboutMe-my {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin-left: 106px;
+  margin-top: 85px;
+  width: 450px;
+}
+
+@media screen and (max-width: 1600px) {
+  .aboutMe {
+    gap: 0px;
+  }
+
+  .aboutMe-text {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .aboutMe-text {
+    font-size: 14px;
+    margin-left: 0px;
+    width: 385px;
+    padding-top: 40px;
+    padding-left: 41px;
+    line-height: 25px;
+    margin-bottom: 127px;
+  }
+
+  .aboutMe-my {
+
+
+    margin-left: 100px;
+    margin-top: 72px;
+    width: 422px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .aboutMe {
+    margin-left: 40px;
+  }
+
+  .aboutMe-my {
+    width: 390px;
+  }
+
+  .aboutMe-text {
+    margin-bottom: 95px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .aboutMe-my {
+    margin-left: 38px;
+    width: 353px;
+  }
+
+  .aboutMe-text {
+    margin-bottom: 62px;
+  }
+}
+
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 800px) {
+  .aboutMe {
+    flex-direction: column-reverse;
+  }
+
+  .aboutMe-text {
+    width: 316px;
+    margin-left: -43px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding-bottom: 17px;
+    font-size: 12px;
+    padding-top: 17px;
+    padding-left: 23px;
+    line-height: 139%;
+  }
+
+  .aboutMe-my {
+    margin-left: 32px;
+    width: 200px;
+  }
+
+}

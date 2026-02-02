@@ -1,0 +1,73 @@
+:root {
+    --color-site: rgb(12, 53, 75);
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgb(1, 27, 40);
+    --color-violet: rgb(127, 42, 255);
+    --color-green: rgb(88, 231, 0);
+}
+
+@font-face {
+    font-family: 'Benzin-Bold';
+    src: url('./font/Benzin-Bold.woff2') format('woff2');
+}
+
+body {
+    background-color: var(--color-black);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cygre", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+    
+}
+a:active{
+    color: blueviolet;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.center930 {
+    padding-left: calc(50% - 830px);
+    padding-right: calc(50% - 830px);
+}
+
+.rotate-90-cw {
+    -webkit-animation: rotate-90-cw 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: rotate-90-cw 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes rotate-90-cw {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes rotate-90-cw {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
