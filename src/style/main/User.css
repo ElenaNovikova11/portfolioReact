@@ -31,7 +31,7 @@
 
  .user-info-text {
      border-radius: 30px;
-     background: var(--color-site);
+     background: var(--color-violet);
      color: rgb(255, 255, 255);
      width: 550px;
      font-size: 19px;
@@ -206,12 +206,12 @@
          padding-right: calc(50% - 396px);
      }
 
-     .blok-right-violet {
+   /*   .blok-right-violet {
          height: 1222px;
          width: 7px;
          margin-left: 718px;
          margin-top: 67px;
-     }
+     } */
 
      .blok-right {
          font-size: 89px;
@@ -240,10 +240,17 @@
          padding: 7px 24px;
          margin-top: 32px;
          margin-left: 10px;
+         margin-bottom: 50px;
      }
 
      .user-info {
-   margin-top: 34px;
+         margin-top: 60px;
+         margin-left: 0px;
+     }
+
+     .user-img {
+         margin-left: -80px;
+         padding-top: 27px;
      }
  }
 
@@ -283,7 +290,8 @@
      .blok-right-violet {
          display: none;
      }
-         .span-color-violet {
-        font-size: 11px;
-    }
+
+     .span-color-violet {
+         font-size: 11px;
+     }
  }

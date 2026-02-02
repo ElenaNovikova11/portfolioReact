@@ -37,9 +37,9 @@ import SiteWoman1 from '../../img/img_portfolio/Site_woman/site_woman_1.svg';
 import SiteWoman2 from '../../img/img_portfolio/Site_woman/site_woman_2.svg';
 import SiteWoman3 from '../../img/img_portfolio/Site_woman/site_woman_3.svg';
 import SiteWoman4 from '../../img/img_portfolio/Site_woman/site_woman_4.svg';
-import AboutMe1 from '../../img/img_portfolio/About_me/about_me_1.svg';
+import AboutMe1 from '../../img/img_portfolio/About_me/about_me_1.jpg';
 import AboutMe2 from '../../img/img_portfolio/About_me/about_me_2.svg';
-import AboutMe3 from '../../img/img_portfolio/About_me/about_me_3.svg';
+import AboutMe3 from '../../img/img_portfolio/About_me/about_me_3.jpg';
 import Tilda1 from '../../img/img_portfolio/Tilda/medkids.JPG';
 import Tilda2 from '../../img/img_portfolio/Tilda/elenanovikova.JPG';
 
@@ -559,9 +559,7 @@ const PortfolioComponent = () => {
     {
       id: 5, text: 'Все работы', content: (<>
         <div className='portfolioAll'>
-          <img src={OldPhotos3} className="d-block w-100 portfolioAll-img" alt="Old_photos" />
-          <img src={OldPhotos1} className="d-block w-100 portfolioAll-img" alt="Old_photos" />
-          <img src={OldPhotos4} className="d-block w-100 portfolioAll-img" alt="Old_photos" />
+        
 
           <img src={LoveIs1} className="d-block w-100 portfolioAll-img" alt="Love_is" />
           <img src={DreamArt1} className="d-block w-100 portfolioAll-img" alt="site_woman" />
@@ -578,6 +576,10 @@ const PortfolioComponent = () => {
           <img src={Metrics1} className="d-block w-100 portfolioAll-img" alt="Metrics" />
           <img src={Metrics2} className="d-block w-100 portfolioAll-img" alt="Metrics" />
           <img src={Metrics3} className="d-block w-100 portfolioAll-img" alt="Metrics" />
+
+            <img src={OldPhotos3} className="d-block w-100 portfolioAll-img" alt="Old_photos" />
+          <img src={OldPhotos1} className="d-block w-100 portfolioAll-img" alt="Old_photos" />
+          <img src={OldPhotos4} className="d-block w-100 portfolioAll-img" alt="Old_photos" />
 
           <img src={SiteWoman1} className="d-block w-100 portfolioAll-img" alt="site_woman" />
           <img src={SiteWoman2} className="d-block w-100 portfolioAll-img" alt="site_woman" />
@@ -620,8 +622,8 @@ const PortfolioComponent = () => {
             onClick={() => setActiveId(btn.id)}
             style={{
             
-              backgroundColor: activeId === btn.id ? 'var(--color-green)' : ' var(--color-site)',
-              color: activeId === btn.id ? 'white' : 'var(--color-violet)',
+              backgroundColor: activeId === btn.id ? 'var(--color-violet)' : ' var(--color-green)',
+              color: activeId === btn.id ? 'var(--color-site)' : 'var(--color-site)',
               border: 'none',
               cursor: 'pointer',
               transition: '0.3s'
