@@ -31,7 +31,7 @@
 
  .user-info-text {
      border-radius: 30px;
-     background: var(--color-violet);
+     background: var(--color-site);
      color: rgb(255, 255, 255);
      width: 550px;
      font-size: 19px;
