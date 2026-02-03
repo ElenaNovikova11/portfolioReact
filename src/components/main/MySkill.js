@@ -1,6 +1,6 @@
 import '../../style/main/MySkill.css';
 import React from 'react'
-
+import { NavLink } from 'react-router-dom';
 const MySkill = () => {
   return (
       <div className="skill-site-window">
@@ -19,7 +19,7 @@ const MySkill = () => {
                     для решения различных задач:
                     <br />от повседневных офисных до более сложных, требующих определённых навыков.
                 </div>
-                <div className="skill-site-window-btn"><a href="about_me.html">ОБО МНЕ</a></div>
+                <div className="skill-site-window-btn"><NavLink to='/AboutMy' >ОБО МНЕ</NavLink></div>
             </div>
   )
 }

@@ -38,10 +38,12 @@
 }
 
 .program-btn:hover {
+    color: #0C354B;
   background-color: rgb(88, 231, 0);
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(130, 130, 130, 0.349);
   box-shadow: unset;
+
 }
 
 .bold {

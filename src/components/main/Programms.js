@@ -9,6 +9,7 @@ import Tilda from "../../img/img/program/tilda.png";
 import Bootstrap from "../../img/img/program/bootstrap.png";
 import Sketchbook from "../../img/img/program/sketchbook.png";
 import Leonardo from "../../img/img/program/leonardo.png";
+import { NavLink } from 'react-router-dom';
 
 const Programms = () => {
     return (
@@ -37,7 +38,7 @@ const Programms = () => {
             <div class="program-block nobold20"><img src={Leonardo} alt="леонардо"
                 class="program-img" />Leonardo</div>
 
-            <div class="program-btn"><a href="about_me.html">ПОРТФОЛИО</a></div>
+            <div class="program-btn"><NavLink to='/Portfolio' >ПОРТФОЛИО</NavLink></div>
         </section>
     )
 }
