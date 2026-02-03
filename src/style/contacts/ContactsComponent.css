@@ -21,14 +21,35 @@
     font-size: 30px;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+   margin-bottom: 10px;
+}
+.header-network-contact{
+  display: flex;
+  gap: 25px;
+  align-items: center;
 }
 
+.header-network-contact img {
+  width: 40px;
+}
 @media screen and (max-width: 1600px) {}
 
-@media screen and (max-width: 1400px) {}
+@media screen and (max-width: 1400px) {
+     .header-network-contact {
+    font-size: 18px;
+    gap: 19px;
+  }
+}
 
-@media screen and (max-width: 1250px) {}
+@media screen and (max-width: 1250px) {
+     .header-network-contact {
+    gap: 15px;
+    font-size: 14px;
+  }
+  .header-network-contact img {
+    width: 30px;
+  }
+}
 
 @media screen and (max-width: 840px) {
     .contact-text {

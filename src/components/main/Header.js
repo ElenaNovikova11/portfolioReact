@@ -14,7 +14,7 @@ function Header() {
     const [toggleMenu, setToggleMenu] = useState(false);
 
 
-    
+
     return (
 
         <header className="header">
@@ -49,7 +49,7 @@ function Header() {
                         <img src={Close} alt='Close иконка изображения' className='header-mobile-close-img' onClick={() => setToggleMenu(false)} />
                     </div>
                     <nav>
-                        <ul className='header-mobile-ul'  onClick={() => setToggleMenu(false)}>
+                        <ul className='header-mobile-ul' onClick={() => setToggleMenu(false)}>
                             <li><NavLink to='/' >ГЛАВНАЯ</NavLink></li>
                             <li><NavLink to='/AboutMy' >ОБО МНЕ</NavLink></li>
                             <li><NavLink to='/Portfolio'>ПОРТФОЛИО</NavLink></li>
@@ -57,9 +57,12 @@ function Header() {
                         </ul>
                     </nav>
                     <div className='header-mobile-icons'>
-                        <img src={Max} alt="max изображение иконки" />
-                        <img src={Telegram} alt="telegram изображение иконки" />
-                        <img src={Vk} alt="vk изображение иконки" />
+                        <a href="https://max.ru/u/f9LHodD0cOKbxiOjjLBmEYKZTB1MaFQF43sNhuBFLjdgjYVePOmoIQg1V-E"><img
+                            src={Max} alt="max изображение иконки" /></a>
+                        <a href="https://t.me/ElenaNovikova11"><img src={Telegram} alt="telegram изображение иконки"
+                        /></a>
+                        <a href="https://vk.com/elenanovikova11"><img src={Vk} alt="vk изображение иконки"
+                        /></a>
                     </div>
                 </motion.div>
             )

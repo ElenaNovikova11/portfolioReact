@@ -17,7 +17,7 @@ const ContactsComponent = () => {
            
 
 
-            <div className="header-network ">
+            <div className="header-network-contact ">
 
                 <a href="https://max.ru/u/f9LHodD0cOKbxiOjjLBmEYKZTB1MaFQF43sNhuBFLjdgjYVePOmoIQg1V-E"><img
                     src={Max} alt="max изображение иконки" /></a>
