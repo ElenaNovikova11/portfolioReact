@@ -1,14 +1,14 @@
 .header {
-  position: fixed;
-  z-index: 998;
+  
   display: flex;
   align-items: center;
- 
   justify-content: space-between;
   padding-left: 70px;
   padding-right: 70px;
   background: linear-gradient(var(--color-violet), rgba(98, 98, 98, 0));
   width: 100%;
+  position: fixed;
+  z-index: 998;
   /* top: auto; */
 
 }

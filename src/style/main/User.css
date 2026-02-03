@@ -126,10 +126,12 @@
          font-size: 14px;
          margin-top: 119px;
          padding: 11px 31px;
+         margin-bottom: 45px;
      }
 
      .user-img {
          margin-left: -86px;
+         margin-top: 31px;
      }
 
      .blok-right {
@@ -206,7 +208,7 @@
          padding-right: calc(50% - 396px);
      }
 
-   /*   .blok-right-violet {
+     /*   .blok-right-violet {
          height: 1222px;
          width: 7px;
          margin-left: 718px;

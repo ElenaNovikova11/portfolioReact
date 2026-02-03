@@ -117,17 +117,18 @@
 @media screen and (max-width: 1400px) {
     .portfolio-img {
         display: grid;
-        grid-template-columns: repeat(1, 420px);
+        grid-template-columns: repeat(1, 340px);
     }
 
     .skill2 {
         display: grid;
-        grid-template-columns: repeat(1, 440px);
-        font-size: 16px;
+        grid-template-columns: repeat(1, 360px);
+        font-size: 13px;
+        padding: 10px;
     }
 
     .work-btn {
-        padding: 6px;
+        padding: 12px;
     }
 
     .portfolio-figma {
@@ -139,7 +140,7 @@
 
     .portfolioAll {
         display: grid;
-        grid-template-columns: 320px 320px 320px;
+        grid-template-columns: 280px 280px 280px;
         gap: 15px;
     }
 }
