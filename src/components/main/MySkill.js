@@ -3,7 +3,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 const MySkill = () => {
   return (
-      <div className="skill-site-window">
+      <section className="skill-site-window">
                 <div className="skill-site-window-block ">
                     Данный сайт сделан <span className="span-color-green ">ПОЛНОСТЬЮ МНОЙ</span>, от макета в программе FIGMA, до создания сайта в программе VS CODE (React)
                 </div>
@@ -20,7 +20,7 @@ const MySkill = () => {
                     <br />от повседневных офисных до более сложных, требующих определённых навыков.
                 </div>
                 <div className="skill-site-window-btn"><NavLink to='/AboutMy' >ОБО МНЕ</NavLink></div>
-            </div>
+            </section>
   )
 }
 

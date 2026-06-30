@@ -6,17 +6,13 @@ import Vk from '../../img/img/vk-green.png';
 
 const ContactsComponent = () => {
     return (
-        <div className='contact'>
+        <section className='contact'>
             <h1>Рассматриваю удаленную работу</h1>
-
             <p className='contact-text'>Контакты:</p>
             <div className='contact-data'>
-              <p>8 912 474 25 78</p>
-            <p>elenanovikovawork@gmail.com</p>   
+                <p>8 912 474 25 78</p>
+                <p>elenanovikovawork@gmail.com</p>
             </div>
-           
-
-
             <div className="header-network-contact ">
 
                 <a href="https://max.ru/u/f9LHodD0cOKbxiOjjLBmEYKZTB1MaFQF43sNhuBFLjdgjYVePOmoIQg1V-E"><img
@@ -26,7 +22,7 @@ const ContactsComponent = () => {
                 <a href="https://vk.com/elenanovikova11"><img src={Vk} alt="vk изображение иконки"
                 /></a>
             </div>
-        </div>
+        </section>
     )
 }
 

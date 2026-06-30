@@ -25,6 +25,10 @@ const Training = () => {
         колледж
         <br /><span class="span-color-green">Специальность: </span>Прикладная информатика в экономике
       </div>
+       <div class="user__fron__skill1">
+        <span class="span-color-violet">Профессиональная переподготовка: </span>GeekBrains
+        <br /><span class="span-color-green">Специальность: </span>Разработчик. Программист. Frontend разработчик, React
+      </div>
       <div class="user__fron__skill1">
         <div class="span-color-green">Дополнительное образование на платформе GeekBrains:</div>
         <div class="certificate">
@@ -37,7 +41,7 @@ const Training = () => {
         </div>
       </div>
       <div class="user__fron__skill1">
-        GeekBrains (в процессе обучения) <br />
+       
         <span class="span-color-violet">Специальность: </span>Разработчик-программист
         <br /><span class="span-color-green">Направление: </span>frontend-разработчик
         <br /><span class="span-color-violet">Несколько сертификатов с курса: </span>

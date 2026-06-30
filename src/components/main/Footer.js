@@ -4,8 +4,8 @@ import React from 'react'
 const Footer = () => {
   return (
   <footer>
-            <hr class="footer-hr" />
-            <p class="footer-text">
+            <hr className="footer-hr" />
+            <p className="footer-text">
                 © Все права на сайт пренадлежат Новиковой Елене</p>
         </footer>
   )

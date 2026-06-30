@@ -559,7 +559,7 @@ const PortfolioComponent = () => {
     {
       id: 5, text: 'Все работы', content: (<>
         <div className='portfolioAll'>
-        
+
 
           <img src={LoveIs1} className="d-block w-100 portfolioAll-img" alt="Love_is" />
           <img src={DreamArt1} className="d-block w-100 portfolioAll-img" alt="site_woman" />
@@ -577,7 +577,7 @@ const PortfolioComponent = () => {
           <img src={Metrics2} className="d-block w-100 portfolioAll-img" alt="Metrics" />
           <img src={Metrics3} className="d-block w-100 portfolioAll-img" alt="Metrics" />
 
-            <img src={OldPhotos3} className="d-block w-100 portfolioAll-img" alt="Old_photos" />
+          <img src={OldPhotos3} className="d-block w-100 portfolioAll-img" alt="Old_photos" />
           <img src={OldPhotos1} className="d-block w-100 portfolioAll-img" alt="Old_photos" />
           <img src={OldPhotos4} className="d-block w-100 portfolioAll-img" alt="Old_photos" />
 
@@ -621,7 +621,7 @@ const PortfolioComponent = () => {
             key={btn.id}
             onClick={() => setActiveId(btn.id)}
             style={{
-            
+
               backgroundColor: activeId === btn.id ? 'var(--color-violet)' : ' var(--color-green)',
               color: activeId === btn.id ? 'var(--color-site)' : 'var(--color-site)',
               border: 'none',
